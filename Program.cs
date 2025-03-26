@@ -65,6 +65,7 @@ namespace InterfaceAndAbstractClass
             Promotion clr = new Promotion();
             int promotedCount = clr.EmployeesPromotedCount(clr.IsPromotableMethod, fullTimeEmployees);
             Console.WriteLine($"No.of employees promoted: {promotedCount}");
+
             //Employee contractEmployee = new ContractEmployee()
             //{
             //    Name = "Ram",
